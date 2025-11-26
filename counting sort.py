@@ -19,4 +19,4 @@ def counting_sort(arr):
             index += 1
             
     return arr
-print(counting_sort([4, 2, 2, 8, 3, 3, 1]))
+print(counting_sort([4, 2, 2, 8, 3, 3, 1]))  # Output: [1, 2, 2, 3, 3, 4, 8]
