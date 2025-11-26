@@ -15,3 +15,4 @@ def binary_search(arr, key):
 arr = [2, 5, 7, 10, 14, 20]
 key = 10
 print("Element found at index:", binary_search(arr, key))
+# Output: Element found at index: 3
