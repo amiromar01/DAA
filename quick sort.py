@@ -2,7 +2,7 @@ def quick_sort(arr):
     arr = arr[:] 
     _quick_sort(arr, 0, len(arr) - 1)
     return arr
-
+    
 def _quick_sort(a, low, high):
     if low < high:
         p = partition(a, low, high)
