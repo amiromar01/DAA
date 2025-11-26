@@ -7,3 +7,4 @@ def linear_search(arr, key):
 arr = [10, 25, 7, 14, 9]
 key = 14
 print("Element found at index:", linear_search(arr, key))
+# Output: Element found at index: 3
