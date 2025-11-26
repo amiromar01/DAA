@@ -8,4 +8,4 @@ def selection_sort(arr):
         arr[i], arr[min_index] = arr[min_index], arr[i]
     return arr
 
-print(selection_sort([64, 25, 12, 22, 11]))
+print(selection_sort([64, 25, 12, 22, 11]))  # Output: [11, 12, 22, 25, 64]
